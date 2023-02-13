@@ -19,4 +19,14 @@ public class ArrayUtils {
             System.out.println();
         });
     }
+
+    public static void printListOfListStrings(ArrayList<ArrayList<String>> list){
+        list.forEach(lst->{
+            lst.forEach(num->{
+                System.out.print(num);
+                System.out.print(",");
+            });
+            System.out.println();
+        });
+    }
 }
