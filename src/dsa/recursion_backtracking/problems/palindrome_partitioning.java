@@ -64,7 +64,7 @@ public class palindrome_partitioning {
 
     public static void main(String[] args) {
         ArrayList<ArrayList<String>> ans = partition("abbab");
-        ArrayUtils.printListOfListStrings(ans);
+        ArrayUtils.printListOfList(ans);
     }
 
     private static ArrayList<ArrayList<String>> partition(String a) {

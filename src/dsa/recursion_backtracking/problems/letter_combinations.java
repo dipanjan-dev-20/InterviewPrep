@@ -8,7 +8,7 @@ public class letter_combinations {
 
     public static void main(String[] args) {
        ArrayList<String> strings =  letterCombinations("345");
-       ArrayUtils.printListOfString(strings);
+       ArrayUtils.printList(strings);
     }
 
     private static ArrayList<String> letterCombinations(String A) {

@@ -1,5 +1,7 @@
 package dsa.recursion_backtracking.problems;
 
+import utils.ArrayUtils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -52,19 +54,7 @@ public class permutations {
 
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> ans = permute(new ArrayList<>(Arrays.asList(1, 2, 3)));
-        ans.forEach(
-                arr -> {
-                    arr.forEach(num ->
-                            {
-                                System.out.print(num);
-                            }
-                    );
-                    System.out.println();
-                }
-
-
-        );
-
+        ArrayUtils.printListOfList(ans);
     }
 
 
